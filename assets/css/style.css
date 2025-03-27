@@ -89,6 +89,7 @@
 .bg-transparent {
     opacity: 0;
 }
+
 /* slider section 2 */
 .slider-container {
     width: 100%;
@@ -101,6 +102,7 @@
 .slider-track {
     display: flex;
     width: 200%;
+    
 }
 
 .slider-track-1 {
@@ -108,7 +110,8 @@
 }
 
 .slider-track-2 {
-    animation: slideRight 10s linear infinite;
+    animation: slideRight 05s linear infinite;
+    animation: sideleft 05 linear infinite;
 }
 
 @keyframes slideLeft {
