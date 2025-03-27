@@ -89,6 +89,13 @@
 .bg-transparent {
     opacity: 0;
 }
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
 
 /* slider section 2 */
 .slider-container {
@@ -246,7 +253,7 @@ h4 {
         right: -100% !important;
         top: 0%;
         transition: all 400ms linear !important;
-        z-index: 5;
+        z-index: 6;
     }
 
     .show-navbar {
