@@ -235,7 +235,9 @@ h4 {
 .max-w-888 {
     max-width: 888px;
 }
-
+.max-w-202{
+    max-width: 202px;
+}
 .mt-48 {
     margin-top: 48px;
 }
