@@ -19,70 +19,73 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="bg-dark-blue">
-    <header class=" flex-column position-relative bg-dark-blue">
+<body >
+<header class="min-h-100 flex-column position-relative bg-dark-blue">
+    <img class="position-absolute bg-layer" src="./assets/img/svg/blue box left.svg" alt="bg-layer">
+    <img class="position-absolute blue-box-r" src="./assets/img/svg/blue-box-r.svg" alt="blue-box">
+    <img class="layer position-absolute z-1 d-none d-md-block" src="./assets/img/svg/layer-1.svg" alt="layer">
+    <img class="position-absolute layer-l d-none d-md-block" src="./assets/img/svg/layer-l.svg" alt="layer">
+    <nav class="w-100 py-2 z-3 position-relative">
+        <div class="container max-w-1040">
+            <div class="d-flex align-items-center  justify-content-between w-100">
+                <a href="https://magiceden.io/marketplace/Nekozuma" target="_blank">
+                    <img src="./assets/img/svg/page-logo (1).svg" class="page-logo position-relative" alt="page-logo">
+                </a>
+                <ul id="name"
+                    class="d-flex mb-0 z-2 align-items-center gap-32 nav-link list-unstyled justify-content-center">
+                    <!-- <button id="theme-toggle" class="border-0 rounded color-white theme-btn  bg-dark-blue"
+                        onclick="switchTheme()">
+                        <img src="./assets/img/svg/dark_mode_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </button> -->
 
-        <img class="position-absolute bg-layer" src="./assets/img/svg/blue-box.svg" alt="bg-layer">
-        <div class="container max-w-880"></div>
-        <nav class="w-100 py-4 z-3">
-            <div class="container max-w-1240">
-                <div class="d-flex align-items-center  justify-content-between w-100">
-                    <a href="#" target="_blank">
-                        <img src="./assets/img/svg/page-logo (1).svg" class="page-logo position-relative"
-                            alt="page-logo">
-                    </a>
-                    <ul id="name"
-                        class="d-flex mb-0 z-2 align-items-center gap-32 nav-link list-unstyled justify-content-center">
-                        <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
-                                href="#">Overview</a>
-                        </li>
-                        <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
-                                href="#">Story</a></li>
-                        <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
-                                href="#">Team</a>
-                        </li>
-                        <div class="gap-18 d-flex">
-                            <a href="https://discord.com/" target="_blank"><img src="./assets/img/svg/discord.svg"
-                                    alt="discord"></a>
-                            <a href="https://x.com/" target="_blank"><img src="./assets/img/svg/twitter.svg"
-                                    alt="twitter"></a>
-                        </div>
-                    </ul>
-                    <div onclick="navbarbtn()" class="z-5 d-block d-lg-none cursor-pointer">
-                        <span class="menu-lines" id="rotates"></span>
-                        <span class="menu-lines" id="transparent"></span>
-                        <span class="menu-lines" id="rotates2"></span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <div class="container max-w-1280">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6 text-center text-lg-start pt-5 pt-lg-102">
-                    <img src="./assets/img/svg/blue-line.svg" alt="">
-                    <h1 class="font-family-primary fw-normal text-xl color-light-blue lh-100">
-                        NEKOZUMA
-                    </h1>
-                    <p class="font-family-secondary fw-normal fs-6 lh-100 color-sky">
-                        The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force
-                        against the anime meta of collections with undoxxed teams and is therefore backed by the team at
-                        Nubbies NFT & Karmic Labs.
-                    </p>
-                    <button class="font-family-secondary button fw-normal fs-6 lh-100 bg-blue color-white border-0">
-                        Connect Wallet
-                    </button>
-                </div>
-                <div class="col-12 col-lg-6 text-center text-lg-end">
-                    <img class="layer position-absolute z-2" src="./assets/img/svg/layer-1.svg" alt="layer">
-                    <img class="position-absolute layer-r z-2" src="./assets/img/svg/layer-r-small.svg" alt="layer">
-                    <img class="position-absolute layer-l " src="./assets/img/svg/layer-l.svg" alt="layer">
-                    <img class="position-absolute blue-box-r" src="./assets/img/svg/blue-box-r.svg" alt="blue-box">
-                    <img class="cat position-relative z-1 img-fluid" src="./assets/img/png/cat.png" alt="cat">
+                    <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
+                            href="#">Overview</a>
+                    </li>
+                    <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
+                            href="#">Story</a></li>
+                    <li><a class="text-decoration-none navbar-link font-family-secondary fs-6 lh-100 fw-normal color-white"
+                            href="#">Team</a>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center gap-3 social">
+                        <a href="https://discord.com/" target="_blank">
+                            <img class="social-icon" src="./assets/img/svg/discord.svg" alt="Discord">
+                        </a>
+                        <a href="https://x.com/" target="_blank">
+                            <img class="social-icon" src="./assets/img/svg/twitter.svg" alt="Twitter">
+                        </a>
+                    </li>
+                </ul>
+                <div onclick="navbarbtn()" class="z-5 d-block d-lg-none cursor-pointer">
+                    <span class="menu-lines" id="rotates"></span>
+                    <span class="menu-lines" id="transparent"></span>
+                    <span class="menu-lines" id="rotates2"></span>
                 </div>
             </div>
         </div>
-
-    </header>
+    </nav>
+    <div class="container max-w-1240">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 z-2 pt-5 pt-lg-5">
+                <img src="./assets/img/svg/blue-line.svg" alt="blue-line">
+                <h1 class="font-family-primary fw-normal text-xl color-light-blue lh-100 mb-11">
+                    NEKOZUMA
+                </h1>
+                <p class="font-family-secondary fw-normal fs-6 lh-100 color-sky max-w-502 mb-43">
+                    The collection of 5555 NFTs on the Solana blockchain. The collection serves to be a rising force
+                    against the anime meta of collections with undoxxed teams and is therefore backed by the team at
+                    Nubbies NFT & Karmic Labs.
+                </p>
+                <button class="font-family-secondary button fw-normal fs-6 lh-100 bg-blue color-white border-0">
+                    Connect Wallet
+                </button>
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-end">
+                <img class="cat position-relative img-fluid" src="./assets/img/png/cat.png" alt="cat-img">
+            </div>
+        </div>
+    </div>
+</header>
+   
     <!-- slider section 2 -->
     <div class="slider-container max-auto">
         
@@ -109,31 +112,25 @@
         </div>
     </div>
     <!-- story section 3 -->
-    <section>
-        <div class="container min-vh-1140 ">
-            <div class="d-flex justify-content-center align-items-center mt-48">
-                <h4 class=" font-family-primary text-center text-xl color-light-blue lh-100">Story</h4>
-            </div>
-            <div class="max-w-888 max-auto">
-                <p class="font-family-secondary text-center fs-6 lh-100 color-sky pt-3">Nekozuma which means
-                    lightning cats in Japanese (Neko = Cats // Inazuma = Lightning) is a collection of 5555 NFTs on the
-                    Solana blockchain. The story centers around 3 eras of cats living in different timelines - past,
-                    present, future. In
-                    each timeline, there are 3 deities that are all powerful and are meant to protect the world of
-                    Nekos.
-                    <br>
-                    <br>However at every junction in time, there is always a darkness that is waiting to overthrow the
-                    good. Hence, each
-                    timeline has its own arch nemesis. This means that there will be a total of 4 godly nekos from each
-                    timeline making a
-                    total of 12 godly nekos that will be fully animated.
+    <section class="bg-dark-blue d-flex flex-column justify-content-center align-items-center min-h-100">
+        <div class="container max-w-1048">
+            <div class="d-flex flex-column align-items-center text-center">
+                <h2 class="font-family-primary text-lg lh-100 fw-normal color-light-blue mt-48 mb-23">Story</h2>
+                <p class="font-family-secondary fs-6 lh-100 fw-normal color-sky max-w-888 mb-36">
+                    Nekozuma, which means lightning cats in Japanese (Neko = Cats // Inazuma = Lightning), is a
+                    collection
+                    of 5555 NFTs on the Solana blockchain. The story centers around 3 eras of cats living in different
+                    timelines - past, present, future. In each timeline, there are 3 deities that are all-powerful and
+                    meant to protect the world of Nekos.
+                </p>
+                <p class="font-family-secondary text-sm lh-100 fw-normal color-sky max-w-888 mb-58">
+                    However, at every junction in time, there is always a darkness waiting to overthrow the good.
+                    Hence, each timeline has its own arch-nemesis. This means that there will be a total of 4 godly
+                    nekos from each timeline, making a total of 12 godly nekos that will be fully animated.
                 </p>
             </div>
         </div>
-        <div class=" align-items-center">
-            <img src="./assets/img/png/story-bg.png" class="mt-48 w-100 ">
-        </div>
-        
+        <img src="./assets/img/png/story-bg.png" alt="bg-cat" class=" w-100 img-fluid">
     </section>
     <!-- team section 4 -->
     <section class="bg-dark-blue d-flex flex-column justify-content-center align-items-center min-h-100">
@@ -261,8 +258,8 @@
         </div>
     </footer>
     <!-- go to top btn  -->
-     <!-- <button class="fs-5 position-fixed myBtn" onclick="topFunction()" id="myBtn" title="Go to top">^</button>  -->
-    <!-- links -->
+      <button class="fs-5 position-fixed myBtn" onclick="topFunction()" id="myBtn" title="Go to top">^</button>  
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

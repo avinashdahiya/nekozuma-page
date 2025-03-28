@@ -45,12 +45,31 @@ const navbarbtn = () => {
 // });
 
 //----------------------------------------------back to top------------------------------------------------
-// const myButton = document.getElementById("myBtn");
+const myButton = document.getElementById("myBtn");
 
-// window.onscroll = function () {
-//     myButton.style.display = window.scrollY > 200 ? "block" : "none";
+window.onscroll = function () {
+    myButton.style.display = window.scrollY > 200 ? "block" : "none";
+};
+
+function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+
+// theme class //
+// const button = document.getElementById('themeToggle');
+// button.addEventListener('click', function () {
+//     document.documentElement.classList.toggle('dark-theme');
+    
+//     // Save the current theme to localStorage
+//     let theme = document.documentElement.classList.contains('dark-theme') ? 'dark' : 'light';
+//     localStorage.setItem('theme', theme);
+// });
+
+// // Load saved theme from localStorage
+// window.onload = function () {
+//     const savedTheme = localStorage.getItem('theme');
+//     if (savedTheme === 'dark') {
+//         document.documentElement.classList.add('dark-theme');
+//     }
 // };
-
-// function topFunction() {
-//     window.scrollTo({ top: 0, behavior: "smooth" });
-// }

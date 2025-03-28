@@ -1,0 +1,15 @@
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --button-bg: #007bff;
+    --button-text: white;
+    --border-color: #ccc;
+}
+
+:root.dark-theme {
+    --bg-color: #121212;
+    --text-color: white;
+    --button-bg: #ff9800;
+    --button-text: black;
+    --border-color: #444;
+}
