@@ -203,27 +203,36 @@ h4 {
 }
 
 /* footer section 5 */
-.bootom-0 {
-    top: 0;
-}
-
-.left-0 {
-    left: 0;
-}
-
-.right-0 {
-    right: 0;
-}
-
-.py-36 {
-    padding-top: 36px;
-    padding-bottom: 36px;
-}
-
 .gap-24 {
     gap: 24px;
 }
 
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mb-47 {
+    margin-bottom: 47px;
+}
+
+.footer-layer-l {
+    bottom: 0%;
+    left: 0%;
+}
+
+.footer-layer-small {
+    bottom: 0%;
+    right: 18%;
+}
+
+.footer-layer-r {
+    bottom: 0%;
+    right: 0%;
+}
 
 /* my-btn */
 .myBtn {
